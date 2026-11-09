@@ -8,3 +8,7 @@ yotobridge/static/
 
 # local Python environments (e.g. for tools/audio_chapters.py)
 .venv*/
+
+# Claude Code per-user local files (can hold tokens approved with "don't ask again")
+.claude/settings.local.json
+CLAUDE.local.md
